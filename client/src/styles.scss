@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle&family=Inter:wght@300;400;700;800&family=Inter+Sans:wght@100;200;400;700&family=Inter:wght@200&family=Inter:wght@100&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  font-family: "Dongle", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+
+  a {
+    text-decoration: none;
+  }
+}

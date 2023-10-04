@@ -1,0 +1,36 @@
+div {
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  justify-content: center;
+
+  button {
+    color: #fff;
+    height: 3rem;
+    width: 5rem;
+    font-size: 1rem;
+    border-radius: 0 10rem 10rem 0;
+    border: none;
+    background-color: rgb(126, 41, 41);
+    border-left: 1px solid #000;
+    outline: transparent;
+    cursor: pointer;
+  }
+
+  button:hover {
+    opacity: 0.8;
+  }
+}
+
+input {
+  border-radius: 10rem 0 0 10rem;
+  border: none;
+  height: 3rem;
+  width: 20rem;
+  background-color: rgb(126, 41, 41);
+  color: #ffffff;
+  padding: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  outline: none;
+}
